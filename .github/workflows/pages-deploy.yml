@@ -27,7 +27,7 @@ jobs:
 
       - name: Check baseurl
         run: |
-          baseurl="/blog"
+          baseurl="blog"
           if [[ -n $baseurl ]]; then
             echo "BASE_URL=$baseurl" >> $GITHUB_ENV
           fi
