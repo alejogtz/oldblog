@@ -1,6 +1,6 @@
 ---
 layout: resume
 title: Resume
-icon: fas fa-icon-resume
+icon: fas fa-file
 order: 1
 ---
