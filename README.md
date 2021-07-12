@@ -71,46 +71,6 @@ Finally, copy the required files from the theme's gem (for detailed files, see [
 
 Or you can [**use the starter template**][use-starter] to create a Jekyll site to save time copying files from the theme's gem. We have prepared everything for you there!
 
-### Fork on GitHub
-
-[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and then clone your fork to local. (Please note that the default branch code is in development.  If you want the blog to be stable, please switch to the [latest tag](https://github.com/cotes2020/jekyll-theme-chirpy/tags) and start writing.)
-
-Install gem dependencies by:
-
-```console
-$ bundle
-```
-
-And then execute:
-
-```console
-$ bash tools/init.sh
-```
-
-> **Note**: If you don't plan to deploy your site on GitHub Pages, append parameter option `--no-gh` at the end of the above command.
-
-What it does is:
-
-1. Remove some files or directories from your repository:
-    - `.travis.yml`
-    - files under `_posts`
-    - folder `docs`
-
-2. If you use the `--no-gh` option, the directory `.github` will be deleted. Otherwise, setup the GitHub Action workflow by removing the extension `.hook` of `.github/workflows/pages-deploy.yml.hook`, and then remove the other files and directories in the folder `.github`.
-
-3. Automatically create a commit to save the changes.
-
-## Usage
-
-### Configuration
-
-Update the variables of `_config.yml` as needed. Some of them are typical options:
-
-- `url`
-- `avatar`
-- `timezone`
-- `lang`
-
 ### Running Local Server
 
 You may want to preview the site contents before publishing, so just run it by:
