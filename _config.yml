@@ -21,9 +21,10 @@ title: Alejo blog                          # the main title
 tagline: Software Engineer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Sitio personal de Alejo Gutiérrez, Ingeniero de software con experiencia
+  en el diseño e implementación de aplicaciones web.
+  Con conocimiento en herramientas de gestión de la configuración y 
+  desarrollando CI/CD pipelines
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://alejogtz.github.io'
