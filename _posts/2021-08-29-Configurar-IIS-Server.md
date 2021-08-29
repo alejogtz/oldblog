@@ -9,8 +9,8 @@ pin: true
 
 # Configurar Servidor IIS
 ## 1. Habilitar los Servicios en `⊞ > Caracteristicas de Windows`
-    ...
-    [] 
+    
+	![Caracteristicas de windows](https://i.imgur.com/5tRdE71.png)
     
 
 ## 2. Crear un Grupo de Aplicaciones
