@@ -64,7 +64,14 @@ docker run -v /home/$USER/public_html/blog:/content -p 80:80 larsks/thttpd -d /c
 ```
 
 Now, open your web browser on  `chrome.exe  http://$(curl -s ifconfig.me)` or manually open explorer on `http://127.0.01/`
+
 Done!
+
+## Screenshots
+
+**Blog**
+
+[!](https://i.imgur.com/Yjij297.png)
 
 ### Customizing the wiki
 
@@ -88,7 +95,7 @@ Alternatively, you can ask ikiwiki to change settings in the file for you:
 
 See [usage][1] for more options.
 
-##Customizing file locations
+## Customizing file locations
 
 As a wiki compiler, ikiwiki builds a wiki from files in a source directory, and outputs the files to a destination directory. The source directory is a working copy checked out from the version control system repository.
 
@@ -111,6 +118,8 @@ If you moved the repository to a new location, checkouts pointing at the old loc
 Finally, edit the setup file. Modify the settings for srcdir, destdir, url, cgiurl, cgi_wrapper, git_wrapper, etc to reflect where you moved things. Remember to run ikiwiki --setup after editing the setup file.
 
 ## Resources
+
+Next resources can be used for customize site
 
 - **CSS market for Ikiwiki sites**: https://ikiwiki.info/css_market/
 - **Ikiwiki Themes**:
