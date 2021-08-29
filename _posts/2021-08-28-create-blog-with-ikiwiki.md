@@ -86,7 +86,7 @@ Alternatively, you can ask ikiwiki to change settings in the file for you:
 % ikiwiki --changesetup foo.setup --plugin goodstuff
 ```
 
-See [usage](1) for more options.
+See [usage][1] for more options.
 
 ##Customizing file locations
 
