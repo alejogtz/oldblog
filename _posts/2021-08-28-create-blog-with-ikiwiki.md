@@ -71,7 +71,7 @@ Done!
 
 **Blog**
 
-[!](https://i.imgur.com/Yjij297.png)
+![blog creado con ikiwiki](https://i.imgur.com/Yjij297.png)
 
 ### Customizing the wiki
 
